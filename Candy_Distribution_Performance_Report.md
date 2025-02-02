@@ -63,6 +63,7 @@ The model follows a **star schema** design, where a central fact table connects 
 | Longitude         | Float     | The longitude coordinate of the factory location |
 
 - **DateTable:** Supports time-based analysis with a date column for filtering and aggregations.
+
 | Column Name       | Data Type | Description                                      |
 |-------------------|-----------|--------------------------------------------------|
 | Date           | Date   | A custom table manually created by DAX |
