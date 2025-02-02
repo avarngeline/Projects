@@ -3,9 +3,17 @@
 ## 1. Overview
 **Problem Statement**
 
-This project focuses on analyzing sales performance, product profitability, factory production efficiency, and shipping logistics for a national US candy distributor. The dataset includes detailed information on customer and factory locations, sales transactions, production data, and shipping routes.
+The national candy distributor faces challenges in optimising its supply chain efficiency, maximising profitability, and improving customer satisfaction. Key areas of concern include identifying the most profitable regions, understanding product profitability, evaluating factory production efficiency, and analysing shipping logistics.
 
-Add more problem!!!
+To address these challenges, this analysis focuses on:
+
+- Sales Performance: Identifying the most profitable regions and understanding sales distribution across product divisions.
+- Product Profitability: Analysing profit margins and the relationship between production costs and sales prices across different product categories.
+- Factory Performance: Assessing factory production efficiency and cost management to enhance operational effectiveness.
+- Shipping Analysis: Examining shipping mode preferences and their impact on customer satisfaction across different states.
+
+The objective is to uncover actionable insights that can drive better decision-making, improve operational efficiency, and enhance overall business performance.
+
 
 ## 2. Data Model
 
@@ -13,7 +21,7 @@ Add more problem!!!
 
 ![Image](https://github.com/user-attachments/assets/efa3a0cf-c60b-4ad7-a090-6eeab4b9936e)
 
-The model follows a **star schema** design, where a central fact table connects to multiple dimension tables. This structure optimizes query performance and simplifies business analysis.
+The model follows a **star schema** design, where a central fact table connects to multiple dimension tables. This structure optimises query performance and simplifies business analysis.
 
 **Fact Table**
 - **Candy_Sales**: Contains transactional data such as sales, costs, and gross profit.
@@ -119,7 +127,7 @@ This step helps identify value distributions, empty or null entries, and any inc
 
 
 **3) Loading Data to Power BI**
-- Close & Apply → Load transformed data into Power BI for further modeling & visualization.
+- Close & Apply → Load transformed data into Power BI for further modeling & visualisation.
 
 **Results**
 
@@ -156,17 +164,17 @@ Three key measures are created for the analysis, mainly to used in the sales per
 
 
 
-## 5. Report Visualization & Design
+## 5. Report Visualisation & Design
 
 **5.1. Page Layout and Key Areas of Analysis**
 - Sales Performance: Evaluating overall sales trends to see seasonality and timing, order volumes, and gross profit distribution across different product dicision and regions.
-- Product Profitability: Identifying the trend of profit margin and the most profitable product division and assessing cost structures to optimize margins.
+- Product Profitability: Identifying the trend of profit margin and the most profitable product division and assessing cost structures to optimise margins.
 - Factory Production Performance: Analysing factory output, comparing cost to sales ratio and identifying the best performer in the view of cost optimisation.
 - Shipping Analysis: Determining the most and least efficient factory-to-customer shipping routes to reduce costs and enhance logistics.
 
 **5.2. Key Visuals & Interactions**  
 
-The following visualizations were created in Power BI to represent the data effectively 
+The following visualisations were created in Power BI to represent the data effectively 
 
 **1) Sales Performance Page**  
 - **Card: YoY Sales Growth, Total Sales, Total Units Sold**
@@ -338,14 +346,14 @@ Hierarchical visualisations in Power BI automatically include drill-down and exp
 
 
 **5.3. Custom Visuals & Theme**  
-Once the visualization is complete, the next step is to enhance its appearance by selecting a theme from the View tab. This customization improves the report’s visual appeal and makes it more engaging.
+Once the visualisation is complete, the next step is to enhance its appearance by selecting a theme from the View tab. This customisation improves the report’s visual appeal and makes it more engaging.
 
 
 ![Image](https://github.com/user-attachments/assets/c1818fca-0cb9-49db-824e-339f87e177c9)
 
 ## 6. Final Report 
 
-Once the visualisations are completed, the **Candy Distribution Performance Report** serves as a powerful tool for data analysis. It helps analyse trends, identify top-selling products, and assess distribution efficiency. Users can apply filters, drill down into data, and compare actual performance against targets to make informed decisions. This report enables better inventory management, pricing strategies, and overall business optimization.
+Once the visualisations are completed, the **Candy Distribution Performance Report** serves as a powerful tool for data analysis. It helps analyse trends, identify top-selling products, and assess distribution efficiency. Users can apply filters, drill down into data, and compare actual performance against targets to make informed decisions. This report enables better inventory management, pricing strategies, and overall business optimisation.
 
 ***Sales Performance***  
 
