@@ -62,7 +62,7 @@ The model follows a **star schema** design, where a central fact table connects 
 | Latitude          | Float     | The latitude coordinate of the factory location |
 | Longitude         | Float     | The longitude coordinate of the factory location |
 
-- **DateTable:** Supports time-based analysis with a date column for filtering and aggregations.
+- **DateTable:** Supports time-based analysis with a date column for filtering and aggregations.  
 
 | Column Name       | Data Type | Description                                      |
 |-------------------|-----------|--------------------------------------------------|
@@ -123,13 +123,16 @@ This step helps identify value distributions, empty or null entries, and any inc
 
 **Results**
 
-*Table: Candy_Sales*
+*Table: Candy_Sales*  
+
 ![Image](https://github.com/user-attachments/assets/866540b6-df74-4dd7-ad7b-c71ba3f5303a)
 
-*Table: Candy_Products*
+*Table: Candy_Products*  
+
 ![Image](https://github.com/user-attachments/assets/ea03889c-06df-4d6f-a028-6dd11827af01)
 
-*Table: Candy_Factories*
+*Table: Candy_Factories*  
+
 ![Image](https://github.com/user-attachments/assets/41d6c7c2-f121-4f93-b93b-697ca3e18eb2)
 
 
@@ -344,12 +347,19 @@ Once the visualization is complete, the next step is to enhance its appearance b
 
 Once the visualisations are completed, the **Candy Distribution Performance Report** serves as a powerful tool for data analysis. It helps analyse trends, identify top-selling products, and assess distribution efficiency. Users can apply filters, drill down into data, and compare actual performance against targets to make informed decisions. This report enables better inventory management, pricing strategies, and overall business optimization.
 
-***Sales Performance***
+***Sales Performance***  
+
 ![Image](https://github.com/user-attachments/assets/e04bc985-1459-4528-8181-0a24f1b01523)
-***Product Profitability***
+
+***Product Profitability***  
+
 ![Image](https://github.com/user-attachments/assets/e042e0d4-3145-4742-a52f-36319b8707b3)
-***Factory Production Performance***
+
+***Factory Production Performance***  
+
 ![Image](https://github.com/user-attachments/assets/5f839bd1-c784-497f-a7f2-0eb0f9705b74)
-***Shipping Analysis***
+
+***Shipping Analysis***  
+
 ![Image](https://github.com/user-attachments/assets/afdeaa72-998e-4d81-95ca-44028767d0e5)
 
