@@ -190,7 +190,7 @@ The following visualisations were created in Power BI to represent the data effe
 
 This chart helps understand the overall business expansion by showing the percentage growth in sales compared to the previous year, total revenue generated, and the total number of units sold.
 
-![Image](https://github.com/user-attachments/assets/30566012-2023-46b8-9cf2-747869c3bf47)
+![Image](https://github.com/user-attachments/assets/f549c8a9-92d1-4759-b157-491bc1e11ca9)
 
 *Data Input:*
 
