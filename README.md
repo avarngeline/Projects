@@ -3,7 +3,7 @@
 
 ## Table of Content
 - [Executive Summary](#executive-summary)
-- [Overview](#overview)
+- [Overview](#Overview)
   - [Problem Statement](#problem-statement)
   - [Objective](#objective)
 - [Data Model](#data-model)
