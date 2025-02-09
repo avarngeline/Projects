@@ -2,6 +2,11 @@
 # Candy Distribution Analytics Report
 
 ## Table of Content
+[Executive Summary](#executive-summary)  
+[1. Overview](#1-overview)  
+[1.1. Problem Statement](#11-problem-statement)  
+[1.2. Objectives](#12-objectives)  
+[2. Data Model](#2-data-model)
 
 
 
@@ -42,7 +47,7 @@ This project analyses sales performance, product profitability, factory producti
 
 - Next-day and same-day shipping are more common in high-volume regions, suggesting demand for faster deliveries in urban centers.
 
-**Actionable Recommendations**
+**Actionable Recommendations:**
 
 - Improve operational efficiency at Sugar Shack and Secret Factory while evaluating The Other Factory for restructuring or repurposing as The Other Factory has a high cost-to-sales ratio.
 
@@ -56,12 +61,12 @@ This project analyses sales performance, product profitability, factory producti
 
 This analysis provides valuable insights into optimising business operations, improving profitability, and strengthening market presence. Implementing these recommendations will drive sustained growth and operational excellence.
 
-## 1.Overview
-**Problem Statement**
+## 1. Overview
+**1.1. Problem Statement**
 
 This project focuses on analysing sales performance, product profitability, factory production efficiency, and shipping logistics for a national US candy distributor. The dataset includes detailed information on customer and factory locations, sales transactions, production data, and shipping routes.
 
-**Objective**
+**1.2. Objective**
 
 To address these challenges, this analysis focuses on:  
 
@@ -73,13 +78,13 @@ To address these challenges, this analysis focuses on:
 
 ## 2. Data Model
 
-**Relationship and Data Schema**
+**2.1. Relationship and Data Schema**
 
 ![Image](https://github.com/user-attachments/assets/efa3a0cf-c60b-4ad7-a090-6eeab4b9936e)
 
 The model follows a **star schema** design, where a central fact table connects to multiple dimension tables. This structure optimises query performance and simplifies business analysis.
 
-**Fact Table**
+**2.2. Fact Table**
 - **Candy_Sales**: Contains transactional data such as sales, costs, and gross profit.
 
 
@@ -105,7 +110,7 @@ The model follows a **star schema** design, where a central fact table connects 
 | Cost              | Decimal   | The total cost of the products in the order      |
 
 
-**Dimension Tables:**
+**2.3. Dimension Tables:**
 
 - **Candy_Products:**   Stores product-related attributes such as product name, unit cost, and unit price.
 
