@@ -4,8 +4,8 @@
 ## Table of Content
 [Executive Summary](#executive-summary)  
 [1. Overview](#1-overview)  
-[1.1. Problem Statement](#11-problem-statement)  
-[1.2. Objectives](#12-objectives)  
+[1.1 Problem Statement](#11-problem-statement)  
+[1.2 Objectives](#12-objectives)  
 [2. Data Model](#2-data-model)
 
 
