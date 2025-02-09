@@ -2,12 +2,21 @@
 # Candy Distribution Analytics Report
 
 ## Table of Content
-[Executive Summary](#executive-summary)  
-[1. Overview](#1-overview)  
-[1.1 Problem Statement](#11-problem-statement)  
-[1.2 Objectives](#12-objectives)  
-[2. Data Model](#2-data-model)
-
+- [Executive Summary](#executive-summary)
+- [Overview](#overview)
+  - [Problem Statement](#problem-statement)
+  - [Objective](#objective)
+- [Data Model](#data-model)
+  - [Relationship and Data Schema](#relationship-and-data-schema)
+  - [Fact Table](#fact-table)
+  - [Dimension Tables](#dimension-tables)
+- [Insights](#insights)
+  - [Sale Performance](#sale-performance)
+  - [Product Profitability](#product-profitability)
+  - [Factory Production Performance](#factory-production-performance)
+  - [Shipping Analysis](#shipping-analysis)
+- [Actionable Recommendations](#actionable-recommendations)
+- [Conclusion](#conclusion)
 
 
 ## Executive Summary
