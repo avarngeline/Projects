@@ -11,7 +11,7 @@
 
 
 ## Executive Summary
-This project analyses sales performance, product profitability, factory production efficiency, and shipping logistics for a national U.S. candy distributor. The dataset includes customer and factory locations, sales transactions, production data, and shipping routes.
+This project analyses sales performance, product profitability, factory production performance, and shipping analysis for a national U.S. candy distributor. The dataset includes product details, factory locations, and sales transactions from 2021 to 2024.
 
 **Key Findings:**
 
@@ -55,16 +55,16 @@ This project analyses sales performance, product profitability, factory producti
 
 - Reevaluate Kazookies strategy due to its lack of profitability and consider expanding high-margin products.
 
-- Optimise shipping routes and consider expanding next-day and same-day shipping options in high-demand regions.
+- Optimise shipping routes and consider expanding next-day and same-day shipping options in high-demand regions to improve customer experience, if costs are efficient.
 
-- Monitor Market Trends – Conduct deeper market analysis for the Gulf region to improve sales and explore alternative product strategies.
+- Monitor Market Trends by conducting deeper market analysis for the Gulf region to improve sales and explore alternative product strategies.
 
 This analysis provides valuable insights into optimising business operations, improving profitability, and strengthening market presence. Implementing these recommendations will drive sustained growth and operational excellence.
 
 ## 1. Overview
 **1.1. Problem Statement**
 
-This project focuses on analysing sales performance, product profitability, factory production efficiency, and shipping logistics for a national US candy distributor. The dataset includes detailed information on customer and factory locations, sales transactions, production data, and shipping routes.
+This project focuses on analysing sales performance, product profitability, factory production efficiency, and shipping logistics for a national US candy distributor. The dataset covers a wide range of variables, including customer and factory locations, sales transactions, production data, and shipping type, requiring in-depth analysis to identify inefficiencies and opportunities for improvement across multiple areas of the business.
 
 **1.2. Objective**
 
@@ -90,24 +90,24 @@ The model follows a **star schema** design, where a central fact table connects 
 
 | Column Name       | Data Type | Description                                      |
 |-------------------|-----------|--------------------------------------------------|
-| Row ID            | Integer   | Unique identifier for each row                    |
-| Order ID          | String    | Unique order identifier                      |
-| Order Date        | Date      | The date when the order was placed                |
-| Ship Date         | Date      | The date when the order was shipped               |
-| Ship Mode         | String    | The shipping method used|
-| Customer ID       | String    | Unique identifier for the customer                |
-| Country/Region    | String    | The country where the order was placed           |
-| City              | String    | The city where the order was placed                |
-| State/Province    | String    | The state or province where the order was placed |
-| Postal Code       | String    | The postal code of the shipping address            |
-| Division          | String    | The product category (e.g., Chocolate)              |
-| Region            | String    | The geographic region (e.g., Pacific, Atlantic)|
-| Product ID        | String    | Unique identifier for the product                 |
-| Product Name      | String    | The name of the product                        |
-| Sales             | Decimal   | The total sales amount for the order            |
-| Units             | Integer   | The number of units sold in the order               |
-| Gross Profit      | Decimal   | The profit earned before deducting costs          |
-| Cost              | Decimal   | The total cost of the products in the order      |
+| Row ID            | Text           | Unique identifier for each row                    |
+| Order ID          | Text           | Unique order identifier                      |
+| Order Date        | Date           | The date when the order was placed                |
+| Ship Date         | Date           | The date when the order was shipped               |
+| Ship Mode         | Text           | The shipping method used|
+| Customer ID       | Text           | Unique identifier for the customer                |
+| Country/Region    | Text           | The country where the order was placed           |
+| City              | Text           | The city where the order was placed                |
+| State/Province    | Text           | The state or province where the order was placed |
+| Postal Code       | Text           | The postal code of the shipping address            |
+| Division          | Text           | The product category (e.g., Chocolate)              |
+| Region            | Text           | The geographic region (e.g., Pacific, Atlantic)|
+| Product ID        | Text           | Unique identifier for the product                 |
+| Product Name      | Text           | The name of the product                        |
+| Sales             | Decimal Number | The total sales amount for the order            |
+| Units             | Whole Number   | The number of units sold in the order               |
+| Gross Profit      | Decimal Number | The profit earned before deducting costs          |
+| Cost              | Decimal Number | The total cost of the products in the order      |
 
 
 **2.3. Dimension Tables:**
@@ -116,20 +116,20 @@ The model follows a **star schema** design, where a central fact table connects 
 
 | Column Name       | Data Type | Description                                      |
 |-------------------|-----------|--------------------------------------------------|
-| Division          | String    | The product category (e.g., Chocolate, Sugar, Other) |
-| Product Name      | String    | The name of the product                        |
-| Factory           | String    | The factory that produces the product          |
-| Product ID        | String    | Unique identifier for each product            |
-| Unit Price        | Float     | The price of a single unit of the product     |
-| Unit Cost         | Float     | The cost to produce a single unit of the product |
+| Division          | Text    | The product category (e.g., Chocolate, Sugar, Other) |
+| Product Name      | Text    | The name of the product                        |
+| Factory           | Text    | The factory that produces the product          |
+| Product ID        | Text   | Unique identifier for each product            |
+| Unit Price        | Decimal Number     | The price of a single unit of the product     |
+| Unit Cost         | Decimal Number    | The cost to produce a single unit of the product |
 
 - **Candy_Factories:** Contains factory details, including factory name and geographical coordinates (latitude, longitude).  
 
 | Column Name       | Data Type | Description                                      |
 |-------------------|-----------|--------------------------------------------------|
-| Factory           | String    | The name of the factory.                        |
-| Latitude          | Float     | The latitude coordinate of the factory location |
-| Longitude         | Float     | The longitude coordinate of the factory location |
+| Factory           | Text   | The name of the factory.                        |
+| Latitude          | Decimal Number     | The latitude coordinate of the factory location |
+| Longitude         | Decimal Number    | The longitude coordinate of the factory location |
 
 - **DateTable:** Supports time-based analysis with a date column for filtering and aggregations.  
 
@@ -146,6 +146,7 @@ The model follows a **star schema** design, where a central fact table connects 
 
 - Sales have shown consistent growth since early 2021, demonstrating a positive trend across all regions and highlighting the company's resilience. The sales pattern is seasonal, peaking each Q4 from 2021 to 2024. The Pacific region stands out, consistently leading in sales growth compared to other regions.
 
+
 ![Image](https://github.com/user-attachments/assets/b6674915-586b-4f1e-ab24-8bd3770542db)
 
   
@@ -153,25 +154,27 @@ The model follows a **star schema** design, where a central fact table connects 
 
 ![Image](https://github.com/user-attachments/assets/f7d8c1d1-0f33-418d-baff-f9ef20ab2cac)
 
-- Year-over-Year (YoY) sales growth has steadily increased since 2021, with a notable 27.43% growth in 2023 and 2024, indicating strong performance and significant improvement compared to the previous year.
+- Year-over-Year (YoY) sales growth has steadily increased since 2021, with a notable 27.43% growth in 2024 compared to 2023, indicating strong performance and significant improvement compared to the previous year.
 
 ![Image](https://github.com/user-attachments/assets/523d1318-779f-4d31-8e40-35b0da0f15d3)
 
 - Comparing 2024 to 2023 by region, the Pacific region shows a strong YoY sales growth of around 38%, outpacing other regions by about 20%. This indicates a significant increase in sales for the Pacific region, which is a positive signal for investors, stakeholders, and management.
-- The Gulf region displays more volatility, with sharp peaks and declines in sales, possibly due to market fluctuations or external factors. In contrast, the Pacific, Atlantic, and Interior regions show more stability, though their slower growth rates suggest a steady but less dramatic demand for products.
+- The Gulf region displays more volatility, with peaks and declines in sales, possibly due to market fluctuations or external factors. In contrast, the Pacific, Atlantic, and Interior regions show more stability, though their slower growth rates suggest a steady but less dramatic demand for products.
 
 ![Image](https://github.com/user-attachments/assets/44039c87-7d7c-467c-b323-119808754619)
 
-- The Pacific region has been a consistent top performer, contributing around $35K in sales and 95K units annually from 2021 to 2024. It consistently outperforms the average across all regions, demonstrating strong demand and a loyal customer base, making it a key driver of overall sales growth.
-- The Gulf region faces challenges with the lowest sales and unit sales, consistently performing below half of the average. Its sales trend has remained flat with no noticeable growth, even declining to its lowest point in January 2024, indicating potential issues such as low market demand or limited reach.
-- The Pacific region leads in total units sold, reflecting robust demand and a strong customer base, while the Atlantic region follows closely behind. The Atlantic shows potential for further growth with focused marketing strategies that could help capture a larger market share.
+- The Pacific region has been a consistent top performer, contributing around $35K in sales and 9.5K units annually from 2021 to 2024. It consistently outperforms the average across all regions, demonstrating strong demand and a loyal customer base, making it a key driver of overall sales growth.
+- The Atlantic region follows closely behind the Pacific region and shows potential for further growth with focused marketing strategies that could help capture a larger market share.
 - The Interior region exhibits moderate sales performance, but there are clear opportunities for growth. With more strategic initiatives, such as targeted marketing and product innovation, the region could increase its market share and boost overall performance.
-- The Gulf region continues to lag significantly, contributing less than half of the total sales compared to other regions. This suggests challenges that may stem from ineffective marketing, low product appeal, or supply chain limitations. Addressing these issues could help improve the Gulf region’s competitiveness and sales performance.
+- The Gulf region faces challenges with the lowest unit sales, consistently performing below half of the average. Its sales trend has remained flat with no noticeable growth, even declining to its lowest point in January 2024, indicating potential issues such as low market demand or limited reach.
 
 ![Image](https://github.com/user-attachments/assets/3cf201d3-fbc9-4243-8d6f-e0ffaa7315b7)
 
-- The top four products consistently making up the highest sales across all regions are Triple Dazzle Caramel, Scrumdiddlyumptious, Milk Chocolate, Nutty Crunch Surprise, and Fudge Mallows. The Chocolate division dominates sales, accounting for nearly 80% of overall sales. Scrumdiddlyumptious and Triple Dazzle Caramel are key contributors to gross profit, each representing around 20% of total profits, solidifying their importance in the product lineup.
-- On the other hand, Kazookies contributes 0% to gross profit, likely due to low-margin pricing or poor sales volume. This suggests the need for a reevaluation of its positioning or sales strategy. The Sugar division has a minimal share of profits, with the majority coming from the Chocolate division and a smaller contribution from the Other division, emphasising the dominant role of Chocolate in driving overall profitability.
+- The top five products consistently making up the highest sales across all regions are Triple Dazzle Caramel, Scrumdiddlyumptious, Milk Chocolate, Nutty Crunch Surprise, and Fudge Mallows.
+- The Chocolate division is the clear leader in sales, contributing nearly 80% of total sales, demonstrating its central role in the company's revenue generation.
+- Scrumdiddlyumptious and Triple Dazzle Caramel are key contributors to gross profit, each representing around 20% of total profits, solidifying their importance in the product lineup.
+- On the other hand, Kazookies contributes 0% to gross profit, likely due to low-margin pricing or poor sales volume. This suggests the need for a reevaluation of its positioning or sales strategy.
+- The Sugar division has a minimal share of the company’s profits, while the Chocolate division remains the primary source of profitability. The Other division also contributes less, further reinforcing the need to focus on the Chocolate division for future growth and profitability
 
 **3.2. Product Profitability**
 
