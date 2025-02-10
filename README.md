@@ -3,28 +3,22 @@
 
 ## Table of Content
 - [Executive Summary](#executive-summary)
-  
-- [Overview](#overview)
-  
-  - [Problem Statement](#problem-statement)
-    
-  - [Objective](#objective)
-    
-- [Data Model](#data-model)
-  
-  - [Relationship and Data Schema](#relationship-and-data-schema)
-    
-  - [Fact Table](#fact-table)
-    
-  - [Dimension Tables](#dimension-tables)
-- [Insights](#insights)
-  - [Sale Performance](#sale-performance)
-  - [Product Profitability](#product-profitability)
-  - [Factory Production Performance](#factory-production-performance)
-  - [Shipping Analysis](#shipping-analysis)
-- [Actionable Recommendations](#actionable-recommendations)
-- [Conclusion](#conclusion)
 
+1. [Executive Summary](#executive-summary)
+2. [1. Overview](#1-overview)
+   1. [1.1 Problem Statement](#11-problem-statement)
+   2. [1.2 Objective](#12-objective)
+3. [2. Data Model](#2-data-model)
+   1. [2.1 Relationship and Data Schema](#21-relationship-and-data-schema)
+   2. [2.2 Fact Table](#22-fact-table)
+   3. [2.3 Dimension Tables](#23-dimension-tables)
+4. [3. Insights](#3-insights)
+   1. [3.1 Sale Performance](#31-sale-performance)
+   2. [3.2 Product Profitability](#32-product-profitability)
+   3. [3.3 Factory Production Performance](#33-factory-production-performance)
+   4. [3.4 Shipping Analysis](#34-shipping-analysis)
+5. [4. Actionable Recommendations](#4-actionable-recommendations)
+6. [5. Conclusion](#5-conclusion)
 
 ## Executive Summary
 This project analyses sales performance, product profitability, factory production efficiency, and shipping logistics for a national U.S. candy distributor. The dataset includes customer and factory locations, sales transactions, production data, and shipping routes.
