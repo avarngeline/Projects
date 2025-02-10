@@ -3,12 +3,19 @@
 
 ## Table of Content
 - [Executive Summary](#executive-summary)
-- [Overview](#Overview)
+  
+- [Overview](#overview)
+  
   - [Problem Statement](#problem-statement)
+    
   - [Objective](#objective)
+    
 - [Data Model](#data-model)
+  
   - [Relationship and Data Schema](#relationship-and-data-schema)
+    
   - [Fact Table](#fact-table)
+    
   - [Dimension Tables](#dimension-tables)
 - [Insights](#insights)
   - [Sale Performance](#sale-performance)
