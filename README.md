@@ -138,7 +138,7 @@ The model follows a **star schema** design, where a central fact table connects 
 | Date           | Date   | A custom table manually created by DAX |
 
 
-## 3.  Insights
+## 3. Insights
 
 **3.1. Sale Performance** 
 
