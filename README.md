@@ -156,7 +156,7 @@ The model follows a **star schema** design, where a central fact table connects 
 
 - Year-over-Year (YoY) sales growth has steadily increased since 2021, with a notable 27.43% growth in 2024 compared to 2023, indicating strong performance and significant improvement compared to the previous year.
 
-![Image](https://github.com/user-attachments/assets/523d1318-779f-4d31-8e40-35b0da0f15d3)
+![Image](https://github.com/user-attachments/assets/c8d7a5b1-c506-4912-915d-769f7fe1c330)
 
 - Comparing 2024 to 2023 by region, the Pacific region shows a strong YoY sales growth of around 38%, outpacing other regions by about 20%. This indicates a significant increase in sales for the Pacific region, which is a positive signal for investors, stakeholders, and management.
 - The Gulf region displays more volatility, with peaks and declines in sales, possibly due to market fluctuations or external factors. In contrast, the Pacific, Atlantic, and Interior regions show more stability, though their slower growth rates suggest a steady but less dramatic demand for products.
@@ -170,8 +170,8 @@ The model follows a **star schema** design, where a central fact table connects 
 
 ![Image](https://github.com/user-attachments/assets/3cf201d3-fbc9-4243-8d6f-e0ffaa7315b7)
 
-- The top five products consistently making up the highest sales across all regions are Triple Dazzle Caramel, Scrumdiddlyumptious, Milk Chocolate, Nutty Crunch Surprise, and Fudge Mallows.
-- The Chocolate division is the clear leader in sales, contributing nearly 80% of total sales, demonstrating its central role in the company's revenue generation.
+- The top five products consistently making up the highest sales across all regions from 2021 to 2024 are Triple Dazzle Caramel, Scrumdiddlyumptious, Milk Chocolate, Nutty Crunch Surprise, and Fudge Mallows.
+- The Chocolate division is the clear leader in sales, contributing nearly 80% of total sales in all regions, demonstrating its central role in the company's revenue generation.
 - Scrumdiddlyumptious and Triple Dazzle Caramel are key contributors to gross profit, each representing around 20% of total profits, solidifying their importance in the product lineup.
 - On the other hand, Kazookies contributes 0% to gross profit, likely due to low-margin pricing or poor sales volume. This suggests the need for a reevaluation of its positioning or sales strategy.
 - The Sugar division has a minimal share of the company’s profits, while the Chocolate division remains the primary source of profitability. The Other division also contributes less, further reinforcing the need to focus on the Chocolate division for future growth and profitability
@@ -182,31 +182,30 @@ The model follows a **star schema** design, where a central fact table connects 
 
 - The average profit margin has steadily increased over the years, with a notable rise between 2021 and 2022 indicating a significant shift in business strategy. Since then, it has stabilised at a high level, with the current overall average profit margin at 66.51%. 
 
-![Image](https://github.com/user-attachments/assets/ec0abf2c-73c3-4147-b33a-65ecae888085)
+![Image](https://github.com/user-attachments/assets/9d259488-e542-4714-9436-fb76f8a56c05)
 
-- The Chocolate division is the top performer with the highest profit margin, surpassing the average. It experienced significant growth from 2022 to 2023, likely due to increased demand, successful product launches, and better pricing strategies. The slight drop in 2024 may indicate a need to reassess strategies, such as new product innovations or operational improvements. The Sugar division follows with an impressive profit margin of over 58% in 2024.
+- From 2021 to 2024, the Chocolate division is the top performer with the highest profit margin, surpassing the average. The Sugar division follows with an impressive profit margin of over 58% in 2024.
 - Both Chocolate and Sugar divisions are profitable, with Chocolate showing strong growth and Sugar maintaining a high margin. However, Chocolate may face slower growth, while Sugar needs to sustain its margin without complacency.
 - The Other division saw significant profit margin volatility, with a sharp drop in 2022 followed by recovery. This shows resilience, likely due to cost-cutting or improved sales strategies.
 - The volatility in the Other division suggests potential market risks. Identifying the causes of the 2022 dip and addressing them through better strategic planning could help reduce future instability.
 
 ![Image](https://github.com/user-attachments/assets/43553983-746c-4e4f-8fad-d0745c8aec15)
 
-- Chocolate Division Leads in Profitability – With the highest average profit margin of 67%, the Chocolate division benefits from premium pricing, lower production costs, or strong consumer demand.
-- Sugar Division Shows Moderate Profitability – The Sugar division has a 58% profit margin, which, while lower than Chocolate, remains strong.
-- Other Division Faces Profitability Challenges – The Other division lags with an average profit margin of just 38%, significantly trailing behind Chocolate and Sugar in profitability.
+- The Chocolate division has the highest average profit margin at 67%, indicating strong financial performance and efficiency. While the Sugar division also shows strong profitability at 58%, though slightly lower than Chocolate. However, The Other category has a significantly lower profit margin of 38%, suggesting either higher costs, lower pricing power, or operational inefficiencies.
+- While Chocolate shows the highest margin, maintaining this growth might be a challenge. The Sugar division should focus on sustaining its margin, and the Other division may need strategic improvements to enhance profitability.
+  
 ![Image](https://github.com/user-attachments/assets/52da1d8c-5ab5-453d-a9fb-fb114250616b)
 
-- Lot’s O’ Nuts is the most profitable factory, generating $53K in gross profit. Its strong performance presents opportunities for optimisation or expansion to further increase production capacity and profits.
+- Lot’s O’ Nuts is the most profitable factory, generating $53K in gross profit from 2021 to 2024. Its strong performance presents opportunities for optimisation or expansion to further increase production capacity and profits.
 - Wicked Choccy’s follows as the second most profitable factory, with $36K in gross profit. With solid profits, it could benefit from investments in capacity expansion or efficiency improvements to boost its contribution.
 - Secret Factory has limited profitability, contributing only $4K in gross profit. This suggests inefficiencies or lower-margin products. A cost-benefit analysis is needed to identify potential adjustments to improve performance.
 - The Other Factory and Sugar Shack are not generating profit, each showing $0K in gross profit. The company should investigate possible operational inefficiencies, low production volumes, or market challenges. If underperformance persists, restructuring or repurposing may be necessary.
 
 ![Image](https://github.com/user-attachments/assets/18f5a1d9-67cb-4f04-8035-66565bbc84c8)
 
-- Everlasting Gobstopper boasts the highest profit margin at 80%, though it does not contribute significantly to overall sales. Its impressive cost-to-price ratio makes it a prime candidate for increased production and marketing to further boost revenue.
 - Five key products—Nutty Crunch Surprise, Scrumdiddlyumptious, Fudge Mallows, Triple Dazzle Caramel, and Milk Chocolate—drive the majority of sales with strong profit margins. Their high demand and well-managed cost structures make them valuable contributors to overall profitability, and expanding production or market presence could lead to even higher financial gains.
-- Kazookies has the lowest profitability, failing to reach the average profit margin. If costs cannot be reduced or demand doesn't rise, the company may need to reconsider its place in the product lineup.
-- The total gross profit across all products is $93,443, indicating solid financial health and effective cost management, while maintaining strong pricing strategies.
+- Everlasting Gobstopper boasts the highest profit margin at 80%, though it does not contribute significantly to overall sales. Its impressive cost-to-price ratio makes it a prime candidate for increased production and marketing to further boost revenue.
+- From 2021 to 2024, the total gross profit across all products is $93,443, indicating solid financial health and effective cost management, while maintaining strong pricing strategies.
 - Total sales volume amounts to $141,784, reflecting strong revenue generation. However, ensuring that sales growth aligns with profitability goals is key to long-term success.
 - There is a correlation between product margins and revenue, as the highest-selling products tend to have strong profit margins. Continued investment in these high-margin products will be essential for sustained growth.
 
@@ -214,7 +213,7 @@ The model follows a **star schema** design, where a central fact table connects 
 
 ![Image](https://github.com/user-attachments/assets/b4341676-9acd-4605-a4f0-97ff80eda0a5)
 
-- Lot’s O’ Nuts leads in cost efficiency with a 30.87% cost-to-sales ratio, indicating optimised production and higher profitability compared to other factories. The company may consider expanding production to capitalise on this efficiency.
+- From 2021 to 2024, Lot’s O’ Nuts leads in cost efficiency with a 30.87% cost-to-sales ratio, indicating optimised production and higher profitability compared to other factories. The company may consider expanding production to capitalise on this efficiency.
 - Wicked Choccy’s shows a competitive cost-to-sales ratio of 34.87%, reflecting strong cost control and solid financial health. Maintaining this efficiency while scaling production could enhance profitability.
 - Both Lot’s O’ Nuts and Wicked Choccy’s contributed significantly to the highest gross profit in the previous analysis.
 - Sugar Shack and Secret Factory have moderate cost-to-sales ratios of 45.14% and 49.41%, respectively. These factories have room for improvement, and reviewing operational processes or renegotiating supplier contracts could help reduce costs.
@@ -222,20 +221,17 @@ The model follows a **star schema** design, where a central fact table connects 
 
 ![Image](https://github.com/user-attachments/assets/3310cfef-8184-44c1-899c-796d7573fe20)
 
-- Lot’s O’ Nuts Dominates in Gross Profit — With the highest gross profit and a low cost-to-sales ratio, Lot’s O’ Nuts is the standout performer. This balance indicates it’s the most profitable and efficient factory. Investing in expanding its capacity or diversifying its product lines could amplify its success. 
-- Wicked Choccy’s is a Strong Performer — Positioned with a reasonable cost-to-sales ratio and solid gross profit, Wicked Choccy’s appears to be a reliable contributor to overall company performance. Continued investment in maintaining this balance could keep it competitive. 
-- The Other Factory’s Inefficiency is Evident — With one of the highest cost-to-sales ratios and minimal gross profit, it’s clear this factory is underperforming significantly. Immediate action is needed to either drastically reduce costs or reconsider its role in the company’s production network. 
-- Sugar Shack and Secret Factory Are in the Middle Ground — Both factories have a middling performance, indicating potential but also clear areas for improvement. By focusing on streamlining operations and reducing waste, there’s a pathway to improved profitability to better profitability for both factories.
+- With the highest gross profit and a low cost-to-sales ratio, Lot’s O’ Nuts is the standout performer. This balance indicates it’s the most profitable and efficient factory. Investing in expanding its capacity or diversifying its product lines could amplify its success. 
+- Wicked Choccy’s appears to be a reliable contributor to overall company performance, positioned with a reasonable cost-to-sales ratio and solid gross profit. Continued investment in maintaining this balance could keep it competitive. 
+- With one of the highest cost-to-sales ratios and minimal gross profit, it is clear that the Other Factory is underperforming significantly. Immediate action is needed to either drastically reduce costs or reconsider its role in the company’s production network. 
+- Sugar Shack and Secret Factory have a middling performance, indicating potential but also clear areas for improvement. By focusing on streamlining operations and reducing waste, there’s a pathway to improved profitability to better profitability for both factories.
 
 ![Image](https://github.com/user-attachments/assets/d9073b37-0441-44ec-a6b3-ad2c98bfa416)
 
-- Lot’s O’ Nuts Shows Consistent Growth — Over the analysed period, Lot’s O’ Nuts displays a consistent upward trend in gross profit. This sustained growth suggests strong market demand for its products and effective operational management. Further scaling production could leverage this positive trend. 
-- Wicked Choccy’s Growth Mirrors Overall Success — Similar to Lot’s O’ Nuts, Wicked Choccy’s shows a steady increase in gross profit, reinforcing its role as a key player in the company’s success. Continued focus on innovation and efficiency will likely sustain this growth. 
-- The Other Factory Remains Stagnant — A flat gross profit line for The Other Factory indicates persistent struggles. Without significant changes, it’s unlikely this factory will contribute meaningfully to the company’s financial health. 
-- Secret Factory and Sugar Shack Show Fluctuations — Both factories demonstrate inconsistent profit trends, suggesting potential market volatility or internal inefficiencies. Identifying the causes of these fluctuations could stabilise and improve their performance.
-
-![Image](https://github.com/user-attachments/assets/618260b0-39f3-4bb5-af4d-8f85faee864f)
-
+- Over the analysed period from 2021 to 2024, Lot’s O’ Nuts displays a consistent upward trend in gross profit. This sustained growth suggests strong market demand for its products and effective operational management. Further scaling production could leverage this positive trend. 
+- Similar to Lot’s O’ Nuts, Wicked Choccy’s shows a steady increase in gross profit, reinforcing its role as a key player in the company’s success. Continued focus on innovation and efficiency will likely sustain this growth. 
+- A flat gross profit line for The Other Factory indicates persistent struggles. Without significant changes, it is unlikely this factory will contribute meaningfully to the company’s financial health. 
+- Secret Factory and Sugar Shack demonstrate inconsistent profit trends, suggesting potential market volatility or internal inefficiencies. Identifying the causes of these fluctuations could stabilise and improve their performance.
 - Lot’s O’ Nuts and Wicked Choccy’s are the Company’s Backbone — Together, these two factories contribute the majority of gross profit, reflecting their efficient operations and strong market position. Prioritising resource allocation here could provide the best return on investment. 
 
 
@@ -243,25 +239,25 @@ The model follows a **star schema** design, where a central fact table connects 
 
 ![Image](https://github.com/user-attachments/assets/ccdc9fb9-56d4-47d5-becc-442c7eb66ef5)
 
-- Chocolate Division’s Shipping Volume is Rising – Over the years, the Chocolate Division has seen a steady increase in shipping volume, with all shipping modes following an upward trend. This indicates growing demand, suggesting that production and logistics need to keep pace to ensure timely deliveries. 
-- Other Division Shows Fluctuating Shipping Trends – While the Other Division’s shipping volume has generally increased, there are noticeable fluctuations, particularly in recent years. These variations may be driven by seasonal demand shifts, supply chain disruptions, or changes in customer preferences. 
-- Sugar Division Has Lower Shipping Volume with Instability – The Sugar Division exhibits a much lower shipping volume compared to the other divisions. There is a noticeable peak followed by a decline, indicating possible supply chain inconsistencies or fluctuating demand in this segment. 
-- Next-Day and Same-Day Shipping Are Less Common Across Divisions – While 3-5 day and 5-7 day shipping modes dominate across all divisions, next-day and same-day options are less frequent. This suggests that most customers prioritise cost savings over speed, or that faster shipping options are limited due to logistics constraints.
+- Over the years, the Chocolate Division has seen a steady increase in shipping volume, with all shipping modes following an upward trend. This indicates growing demand, suggesting that production and logistics need to keep pace to ensure timely deliveries. 
+- While the Other Division’s shipping volume has generally increased, there are noticeable fluctuations, particularly in recent years. These variations may be driven by seasonal demand shifts, supply chain disruptions, or changes in customer preferences. 
+- The Sugar Division exhibits a much lower shipping volume compared to the other divisions. There is a noticeable peak followed by a decline, indicating possible supply chain inconsistencies or fluctuating demand in this segment. 
+- While 3-5 day and 5-7 day shipping modes dominate across all divisions, next-day and same-day options are less frequent. This suggests that most customers prioritise cost savings over speed, or that faster shipping options are limited due to logistics constraints.
 
 ![Image](https://github.com/user-attachments/assets/df2c876f-eda0-4921-a7e8-a477e0597b6c)
 
-- Pacific Region Has the Highest Shipping Volume – The Pacific region leads in shipping volume, with a strong mix of 3-5 day, 5-7 day, and next-day shipping. This suggests a high concentration of customers or major distribution hubs in this area. 
-- Atlantic Region is a Close Second in Volume – The Atlantic region has a slightly lower shipping volume than the Pacific, but still maintains a strong presence across all shipping modes. Optimising shipping routes here could help reduce costs while maintaining efficiency. 
-- Interior Region Sees Moderate Shipping Activity – The Interior region lags behind Pacific and Atlantic in terms of shipping volume, possibly due to fewer distribution centers or lower customer density. Expanding logistics operations here could enhance service levels. 
-- Gulf Region Has the Lowest Shipping Volume – The Gulf region records the lowest shipping volume, indicating either a smaller customer base or limited distribution capabilities. Understanding demand patterns here could help determine whether expansion is viable. 
-- Slower Shipping Modes Dominate Across All Regions – In every region, 3-5 day and 5-7 day shipping modes account for the majority of shipments. This aligns with cost-conscious customer preferences but also highlights potential areas for improving faster shipping options. 
-- Next-Day and Same-Day Shipping Are More Common in High-Volume Regions – The Pacific and Atlantic regions see a higher proportion of next-day and same-day shipments, likely due to the presence of major urban centers with better logistics infrastructure. 
+- The Pacific region leads in shipping volume, with a strong mix of 3-5 day, 5-7 day, and next-day shipping. This suggests a high concentration of customers or major distribution hubs in this area. 
+- The Atlantic region has a slightly lower shipping volume than the Pacific, but still maintains a strong presence across all shipping modes. Optimising shipping routes here could help reduce costs while maintaining efficiency. 
+- The Interior region lags behind Pacific and Atlantic in terms of shipping volume, possibly due to fewer distribution centers or lower customer density. Expanding logistics operations here could enhance service levels. 
+- The Gulf region records the lowest shipping volume, indicating either a smaller customer base or limited distribution capabilities. Understanding demand patterns here could help determine whether expansion is viable. 
+- In every region, 3-5 day and 5-7 day shipping modes account for the majority of shipments. This aligns with cost-conscious customer preferences but also highlights potential areas for improving faster shipping options. 
+- The Pacific and Atlantic regions see a higher proportion of next-day and same-day shipments, likely due to the presence of major urban centers with better logistics infrastructure. 
 
 ![Image](https://github.com/user-attachments/assets/b5e0955d-38da-4e35-a98e-fdbf65dad1aa)
-- United States is the Primary Sales Market – The U.S. dominates in terms of shipping volume, with various regions contributing significantly to total shipments. This suggests a well-established customer base and distribution network. 
-- Canada is a Key Secondary Market – While the U.S. leads in shipments, Canada also has a notable presence, indicating strong cross-border trade. Ensuring efficient customs processing and logistics partnerships could further streamline shipping to Canada. 
-- Shipping Mode Varies by Location – Different sales locations exhibit unique shipping mode preferences. Some areas rely heavily on standard shipping (3-5 days, 5-7 days), while others demand faster options like next-day delivery. Analysing these preferences could help tailor shipping strategies. 
-- Urban Centers Show Higher Usage of Next-Day and Same-Day Shipping – Locations with major metropolitan areas see a greater proportion of next-day and same-day shipments, indicating demand for faster deliveries in densely populated regions. 
+- The U.S. dominates in terms of shipping volume, with various regions contributing significantly to total shipments. This suggests a well-established customer base and distribution network. 
+- While the U.S. leads in shipments, Canada also has a notable presence, indicating strong cross-border trade. Ensuring efficient customs processing and logistics partnerships could further streamline shipping to Canada. 
+- Different sales locations exhibit unique shipping mode preferences. Some areas rely heavily on standard shipping (3-5 days, 5-7 days), while others demand faster options like next-day delivery. Analysing these preferences could help tailor shipping strategies. 
+- Locations with major metropolitan areas see a greater proportion of next-day and same-day shipments, indicating demand for faster deliveries in densely populated regions. 
 
 
 
@@ -273,11 +269,10 @@ The model follows a **star schema** design, where a central fact table connects 
 
 - Explore Cost Reduction Techniques — For Sugar Shack and Secret Factory, exploring lean manufacturing techniques or renegotiating key supply contracts could reduce the cost-to-sales ratio and improve profitability. 
 
-- Investigate Market Demand and Product Fit — For factories like Sugar Shack and Secret Factory, understanding whether the market demand aligns with what they’re producing could highlight opportunities to pivot to more profitable products. 
+- Investigate Market Demand and Product Fit — For factories like Sugar Shack and Secret Factory, understanding whether the market demand aligns with what they are producing could highlight opportunities to pivot to more profitable products. 
 
-- Improve Cross-Factory Knowledge Sharing — Sharing operational best practices from top-performing factories with lower-performing ones might bring up overall efficiency and profitability across the board. 
-Consider Phasing Out or Repurposing — If efforts to turn around The Other Factory aren’t successful, it might make sense to phase it out or repurpose it for a different type of production that better aligns with market demand and profitability targets. 
-
+- Improve Cross-Factory Knowledge Sharing — Sharing operational best practices from top-performing factories with lower-performing ones might bring up overall efficiency and profitability across the board.
+   
 - Implement Performance Monitoring Systems — Introducing more rigorous performance monitoring and feedback loops across all factories could help identify inefficiencies early and apply corrective measures swiftly.
 
 ## 5. Conclusion
