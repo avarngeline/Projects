@@ -139,6 +139,7 @@ The model follows a **star schema** design, where a central fact table connects 
 
 
 ## 3. Insights
+Before conducting the analysis, the dataset was cleaned and transformed using Power Query in Power BI. This process included handling missing values, removing duplicates, removing unnecessary columns, standardising formats, and creating calculated columns where necessary. The cleaned data was then loaded into Power BI for further analysis and visualisation. For a detailed breakdown of the data cleaning steps, please refer to the Power BI Workflow file.  
 
 **3.1. Sale Performance** 
 
