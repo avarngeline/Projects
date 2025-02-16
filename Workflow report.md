@@ -1,4 +1,4 @@
-# Power BI Workflow: Candy Distribution Analytics Report
+# Candy Distribution Analytics Workflow Report
 
 ## 1. Overview
 **Problem Statement**
