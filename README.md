@@ -1,15 +1,6 @@
 
 # Candy Distribution Analytics Report
 
-## Table of Content
-[Executive Summary](#executive-summary)  
-[1. Overview](#1-overview)  
-[2. Data Model](#2-data-model)  
-[3. Insights](#3-insights)  
-[4. Actionable Recommendations](#4-actionable-recommendations)  
-[5. Conclusion](#5-conclusion)  
-
-
 ## Executive Summary
 This project analyses sales performance, product profitability, factory production performance, and shipping analysis for a national U.S. candy distributor. The dataset includes product details, factory locations, and sales transactions from 2021 to 2024.
 
@@ -60,6 +51,15 @@ This project analyses sales performance, product profitability, factory producti
 - Monitor Market Trends by conducting deeper market analysis for the Gulf region to improve sales and explore alternative product strategies.
 
 This analysis provides valuable insights into optimising business operations, improving profitability, and strengthening market presence. Implementing these recommendations will drive sustained growth and operational excellence.
+
+## Table of Content
+
+[1. Overview](#1-overview)  
+[2. Data Model](#2-data-model)  
+[3. Insights](#3-insights)  
+[4. Actionable Recommendations](#4-actionable-recommendations)  
+[5. Conclusion](#5-conclusion)  
+
 
 ## 1. Overview
 **1.1. Problem Statement**
